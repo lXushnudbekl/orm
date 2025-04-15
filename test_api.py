@@ -5,7 +5,7 @@ client = TestClient(app)
 
 
 def test_read_user():
-    response = client.get("/api/user")
+    response = client.get("/fast/user")
     assert response.status_code == 200
     assert response.json()
 
