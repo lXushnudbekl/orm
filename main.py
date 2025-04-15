@@ -18,9 +18,9 @@ app = FastAPI(
 )
 
 
-@app.get("/api/user")
+@app.get("/fast/user")
 def read_user():
-    return {"message": "Hello User!"}
+    return {"xabar": "Hello Xushnudbek!"}
 
 
 @app.on_event("startup")
